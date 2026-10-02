@@ -1,0 +1,25 @@
+{
+  "name": "sticker-mule-agent-demo",
+  "version": "1.0.0",
+  "description": "Educational TypeScript AI Agent architecture demonstrating tool selection, execution, and validation for Sticker Mule order operations",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "start:compiled": "node dist/index.js"
+  },
+  "keywords": [
+    "ai-agent",
+    "typescript",
+    "sticker-mule",
+    "tool-calling",
+    "portfolio"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "@types/node": "^22.13.9"
+  }
+}
